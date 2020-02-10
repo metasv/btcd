@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
+	"github.com/yaochaoutokyo/btcd/blockchain"
+	"github.com/yaochaoutokyo/btcd/btcec"
+	"github.com/yaochaoutokyo/btcd/chaincfg"
+	"github.com/yaochaoutokyo/btcd/chaincfg/chainhash"
+	"github.com/yaochaoutokyo/btcd/txscript"
+	"github.com/yaochaoutokyo/btcd/wire"
 )
 
 // fakeChain is used by the pool harness to provide generated test utxos and

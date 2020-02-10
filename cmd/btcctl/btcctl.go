@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/btcsuite/btcd/btcjson"
+	"github.com/yaochaoutokyo/btcd/btcjson"
 )
 
 const (
